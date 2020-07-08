@@ -1,4 +1,5 @@
-module.exports = function addPicklistField(salesForceCredentials /**Object {} */ ,
+module.exports = function addPicklistField(
+    salesForceCredentials /**Object { loginUrl,userName,password,token} */ ,
     customObjectName /**String */ ,
     picklistFieldName /**String */ ,
     picklistValues /**String Array */ ) {
@@ -7,6 +8,6 @@ module.exports = function addPicklistField(salesForceCredentials /**Object {} */
 
 
 
-
+        resolve()
     })
 }

@@ -6,8 +6,8 @@ module.exports = {
         token: 'tDEN6dXJCZ2IdmHSfmESg0Eo'
     },
     testParameters: {
-        customObjectName: '',
-        picklistFieldName: '',
-        picklistValues: ['', '', '']
+        customObjectName: 'todotest__c',
+        picklistFieldName: 'favoriteSuperHero',
+        picklistValues: ['Superman', 'Batman', 'Spiderman', 'WonderWoman']
     }
 }
