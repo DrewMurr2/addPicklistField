@@ -1,0 +1,20 @@
+{
+  "name": "addpicklistfield",
+  "version": "1.0.0",
+  "description": "Just adding a picklist field in Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node a"
+  },
+  "keywords": [
+    "node",
+    "salesforce",
+    "picklist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsforce": "^1.9.3",
+    "lodash": "^4.17.17"
+  }
+}
