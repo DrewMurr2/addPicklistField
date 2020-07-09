@@ -10,7 +10,7 @@ let run = async () => {
     await createPicklist(config.salesForceCredentials, config.testParameters.customObjectName, config.testParameters.picklistFieldName, config.testParameters.picklistValues)
 
     let description = await connection.describe(config.testParameters.customObjectName)
-    let field /**Field Object */ = description.fields.filter((field) => field.name === config.testParameters.picklistFieldName)
+    let field /**Field Object */ = description.fields.filter((field) => field.name === config.testParameters.picklistFieldName)[0]
 
     if (!field) {
         throw new Error('The picklist field which was created should be in the fields list!!!')
